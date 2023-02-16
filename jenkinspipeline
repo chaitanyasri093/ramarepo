@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Download terraform code from Github') { 
             steps {
-                git credentialsId: 'chaitanyasri093', url: 'https://github.com/chaitanyasri093/gitpractice.git'
+                git credentialsId: 'chaitanyasri093', url: 'https://github.com/chaitanyasri093/ramarepo.git'
             }    
         }
 
